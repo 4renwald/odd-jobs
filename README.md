@@ -12,16 +12,15 @@ Do not expect the cleanest code or polished structure in every project.
 
 ```text
 .
-├── scripts/
-│   └── <project_slug>/
-├── reports/
-│   └── <project_slug>/
+├── <project_slug>/
+│   ├── README.md
+│   └── <project files>
 └── README.md
 ```
 
 ## Conventions
 
 - Keep each job isolated under one `project_slug`.
-- Store executable code in `scripts/<project_slug>/`.
-- Store usage/context docs in `reports/<project_slug>/`.
-- Use consistent names so scripts and reports are easy to match.
+- Store the guide as `README.md` inside that job directory.
+- Keep scripts and supporting files beside the guide so each job is self-contained.
+- Use clear filenames so the entrypoint is obvious at a glance.

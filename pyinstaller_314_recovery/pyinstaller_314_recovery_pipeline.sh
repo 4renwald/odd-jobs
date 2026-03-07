@@ -4,7 +4,7 @@ set -euo pipefail
 usage() {
   cat <<'EOF'
 Usage:
-  scripts/pyinstaller_314_recovery/pyinstaller_314_recovery_pipeline.sh <pyc_dir> [output_dir]
+  pyinstaller_314_recovery/pyinstaller_314_recovery_pipeline.sh <pyc_dir> [output_dir]
 
 What it does:
   1) Clone pycdc PR #566, patch for Python 3.14rc3, and build it.

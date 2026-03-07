@@ -2,8 +2,8 @@
 
 ## 1) Scope
 This document describes the code and behavior of the PyInstaller recovery toolchain in this project:
-- `scripts/pyinstaller_314_recovery/pyinstaller_314_recovery_pipeline.sh`
-- `scripts/pyinstaller_314_recovery/pyinstaller_314_recovery_clean_main.py`
+- `pyinstaller_314_recovery/pyinstaller_314_recovery_pipeline.sh`
+- `pyinstaller_314_recovery/pyinstaller_314_recovery_clean_main.py`
 
 It focuses on implementation logic, patch behavior, and generated outputs.
 
@@ -143,13 +143,13 @@ For output directory `<output_dir>`:
 From repo root:
 
 ```bash
-./scripts/pyinstaller_314_recovery/pyinstaller_314_recovery_pipeline.sh <pyc_dir> [output_dir]
+./pyinstaller_314_recovery/pyinstaller_314_recovery_pipeline.sh <pyc_dir> [output_dir]
 ```
 
 Help:
 
 ```bash
-./scripts/pyinstaller_314_recovery/pyinstaller_314_recovery_pipeline.sh --help
+./pyinstaller_314_recovery/pyinstaller_314_recovery_pipeline.sh --help
 ```
 
 ---
